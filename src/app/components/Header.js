@@ -1,10 +1,11 @@
 "use clinet";
 
 import Link from "next/link";
+import CategoryMenu from "./CategoryMenu";
 
 export default function Header() {
   return (
-    <header className="flex w-full justify-between items-center border-b-2 border-solid border-black">
+    <header className="flex w-full justify-between items-center border-b-2 border-solid border-white">
       <div className="flex-col w-full">
         {/* pembagian kolom div di header */}
         <div className="bg-[#254336] flex justify-around items-center w-full h-10 px-20 text-white">
@@ -21,9 +22,9 @@ export default function Header() {
             <Link href="/" className="font-bold font-serif text-2xl">
               KOPMA
             </Link>
-            <Link href="#categories" className="text-base">
-              Category
-            </Link>
+
+            <CategoryMenu />
+
             <Link href="#about" className="text-base">
               About
             </Link>

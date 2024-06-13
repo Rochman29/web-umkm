@@ -3,6 +3,7 @@
 import Categories from "./components/Categories";
 import Header from "./components/Header";
 import ImageGallery from "./components/ImageGallery";
+import OurProduct from "./components/OurProduct";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       </main>
       <div id="categories">
         <Categories />
+      </div>
+      <div id="">
+        <OurProduct />
       </div>
     </div>
   );

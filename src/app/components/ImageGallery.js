@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 export default function ImageGallery() {
   return (
-    <section className="bg-[#909090] min-h-[534px] rounded-3xl">
+    <section className="bg-[#909090] min-h-[534px] rounded-b-3xl">
       <div className="container">
         <Swiper
           navigation
@@ -19,13 +19,11 @@ export default function ImageGallery() {
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
-              <div className="py-10 flex h-full w-full items-center justify-center">
-                <Image
+              <div className="flex h-full w-full items-center justify-center">
+                <img
                   src={image.src}
                   alt={image.alt}
-                  width="600"
-                  height="400"
-                  className="block h-full w-full object-cover px-10"
+                  className="block h-full w-full object-cover rounded-b-3xl"
                 />
               </div>
             </SwiperSlide>
