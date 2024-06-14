@@ -1,7 +1,14 @@
+"use client";
+
+import Header from "@/components/Header";
+
 export default function page() {
   return (
     <>
-      <div>TES</div>
+      <div>
+        <Header />
+      </div>
+      <p>HALOO</p>
     </>
   );
 }

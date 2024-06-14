@@ -1,6 +1,5 @@
 import { Button } from "@headlessui/react";
 import Image from "next/image";
-import Footer from "./Footer";
 
 export default function AlatTulis() {
   return (
@@ -237,7 +236,6 @@ export default function AlatTulis() {
           </div>
         </div>
       </div>
-      <Footer />
     </main>
   );
 }
