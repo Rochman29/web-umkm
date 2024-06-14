@@ -13,7 +13,7 @@ export default function page() {
       <div className="font-semiboldx font-sans text-5xl px-20 h-60 flex items-center">
         Alat Tulis
       </div>
-      <div className="">
+      <div>
         <AlatTulis />
       </div>
       <div>
