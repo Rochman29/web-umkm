@@ -1,7 +1,9 @@
+"use client";
+
 import AlatTulis from "@/components/AlatTulis";
 import Header from "../../components/Header";
 
-export default function page1() {
+export default function page() {
   return (
     <div className="bg-[#DAD3BE] scroll-smooth focus:scroll-auto">
       <header>

@@ -25,7 +25,7 @@ export default function Categories() {
           <p className="text-sm font-sans font-bold">Percetakan</p>
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          <Link href="/page2">
+          <Link href="/pageAlatTulis">
             <Image src="/categories/alat-tulis.png" width="200" height="200" />
           </Link>
           <p className="text-sm font-sans font-bold">Alat Tulis</p>

@@ -14,15 +14,13 @@ export default function Header() {
 
           <div className="flex justify-between items-center w-1/2">
             {/* ini buat atur div buat navbar yang kiri */}
-            <Link href="/" className="font-bold font-serif text-2xl">
-              KOPMA
+            <div className="font-bold font-serif text-2xl">KOPMA</div>
+            <Link href="/" className="text-base">
+              Home
             </Link>
 
             <CategoryMenu />
 
-            <Link href="#produk" className="text-base">
-              Products
-            </Link>
             <Link href="#contact" className="text-base">
               Contact
             </Link>

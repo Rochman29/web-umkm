@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="bg-[#2c3e50] text-white py-4 relative">
+    <footer id="contact" className="bg-[#2c3e50] text-white py-4 relative">
       <div className="flex justify-between max-w-6xl m-auto flex-wrap">
         <div className="flex w-full flex-wrap">
           <div className="flex-1 m-2.5 min-w-52">
@@ -12,22 +12,17 @@ export default function Footer() {
             </h4>
             <ul className="text-sm leading-6 list-none p-0 mb-[10px] text-white">
               <li className="mb-[10px]">
-                <Link className="text-sm leading-6" href="#home">
+                <Link className="text-sm leading-6" href="/">
                   Home
                 </Link>
               </li>
               <li className="mb-[10px]">
-                <Link className="text-sm leading-6" href="#kategori">
+                <Link className="text-sm leading-6" href="/#categories">
                   Categories
                 </Link>
               </li>
               <li className="mb-[10px]">
-                <Link className="text-sm leading-6" href="#produk">
-                  Products
-                </Link>
-              </li>
-              <li className="mb-[10px]">
-                <Link className="text-sm leading-6" href="#kontak">
+                <Link className="text-sm leading-6" href="#contact">
                   Contact
                 </Link>
               </li>
