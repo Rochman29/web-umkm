@@ -8,12 +8,7 @@ export default function Header() {
     <header className="flex w-full justify-between items-center border-b-2 border-solid border-white">
       <div className="flex-col w-full">
         {/* pembagian kolom div di header */}
-        <div className="bg-[#254336] flex justify-around items-center w-full h-10 px-20 text-white">
-          {/* ini div atur header yang atas */}
-          <div>IDR</div>
-          <div>FREE SHIPPING ON ALL HERMAN MILLER! FEB. 25–28.</div>
-          <div>Support</div>
-        </div>
+
         <div className="flex justify-between w-full px-20 h-14">
           {/* ini buat atur div header yang bawah */}
 
