@@ -25,8 +25,8 @@ export default function Header() {
 
             <CategoryMenu />
 
-            <Link href="#about" className="text-base">
-              About
+            <Link href="#produk" className="text-base">
+              Products
             </Link>
             <Link href="#contact" className="text-base">
               Contact

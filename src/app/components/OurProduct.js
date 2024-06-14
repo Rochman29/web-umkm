@@ -16,17 +16,17 @@ export default function OurProduct() {
       </div>
       <div className="flex flex-row justify-center items-start gap-8 h-1/2">
         <div className="flex flex-col justify-center gap-2">
-          <Image src="/bendera-indonesia.jpg" width="200" height="200" />
+          <Image src="/product/map-kertas.png" width="200" height="200" />
           <p className="text-sm font-sans font-bold text-left">Map Kertas</p>
           <p className="text-sm font-sans text-left">Rp. 2000</p>
         </div>
         <div className="flex flex-col justify-center gap-2">
-          <Image src="/bendera-indonesia.jpg" width="200" height="200" />
+          <Image src="/product/pulpen.png" width="200" height="200" />
           <p className="text-sm font-sans font-bold text-left">Pulpen</p>
           <p className="text-sm font-sans text-left">Rp. 5000</p>
         </div>
         <div className="flex flex-col justify-center gap-2">
-          <Image src="/bendera-indonesia.jpg" width="200" height="200" />
+          <Image src="/product/jasa-print.png" width="200" height="200" />
           <p className="text-sm font-sans font-bold text-left">Jasa Print</p>
           <p className="text-sm font-sans text-left">Rp. 1000/lembar</p>
         </div>

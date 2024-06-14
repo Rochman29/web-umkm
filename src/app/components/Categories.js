@@ -16,16 +16,16 @@ export default function Categories() {
       </div>
       <div className="flex flex-row justify-center items-start gap-8 h-1/2">
         <div className="flex flex-col justify-center items-center gap-2">
-          <Image src="/bendera-indonesia.jpg" width="200" height="200" />
+          <Image src="/categories/pengeditan.png" width="200" height="200" />
           <p className="text-sm font-sans font-bold">Pengeditan</p>
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          <Image src="/bendera-indonesia.jpg" width="200" height="200" />
-          <p className="text-sm font-sans font-bold">Alat Tulis</p>
+          <Image src="/categories/percetakan.png" width="200" height="200" />
+          <p className="text-sm font-sans font-bold">Percetakan</p>
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
-          <Image src="/bendera-indonesia.jpg" width="200" height="200" />
-          <p className="text-sm font-sans font-bold">Percetakan</p>
+          <Image src="/categories/alat-tulis.png" width="200" height="200" />
+          <p className="text-sm font-sans font-bold">Alat Tulis</p>
         </div>
       </div>
     </div>
