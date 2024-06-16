@@ -330,7 +330,8 @@ export default function Checkout() {
 
     const data = await response.json();
     console.log(data);
-    window.snap.pay(data.token, {
+    window.snap.pay(
+      data.token /*{
       onSuccess: function (result) {
         console.log(result);
         redirect("/pageBerhasil");
@@ -339,7 +340,8 @@ export default function Checkout() {
       onError: function (result) {
         console.log(result);
       },
-    });
+    }*/
+    );
   };
 
   return (
