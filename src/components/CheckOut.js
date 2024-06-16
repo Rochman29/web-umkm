@@ -333,8 +333,8 @@ export default function Checkout() {
     window.snap.pay(data.token, {
       onSuccess: function (result) {
         console.log(result);
-        dispatch(updateCart([]));
         redirect("/pageBerhasil");
+        dispatch(updateCart([]));
       },
       onError: function (result) {
         console.log(result);
