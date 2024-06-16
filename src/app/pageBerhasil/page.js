@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useDispatch } from "react-redux";
 import { updateCart } from "@/redux/features/cart-slice";
 
-export default function page() {
+export default function Page() {
   const dispatch = useDispatch();
   return (
     <>
