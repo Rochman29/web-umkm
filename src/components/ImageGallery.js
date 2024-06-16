@@ -17,7 +17,7 @@ export default function ImageGallery() {
           className="h-[534px] w-full rounded-lg"
         >
           {images.map((image, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={image.src}>
               <div className="flex h-full w-full items-center justify-center">
                 <img
                   src={image.src}

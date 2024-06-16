@@ -349,7 +349,7 @@ export default function Checkout() {
           <>
             {cartItems.map((item, index) => (
               <div
-                key={index}
+                key={item.name}
                 className="flex flex-row justify-between border-2 p-1 md:p-2 border-white"
               >
                 <div className="flex flex-row gap-2 md:gap-4 items-start">

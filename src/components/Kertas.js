@@ -16,7 +16,10 @@ export default function Kertas() {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 justify-items-center px-20 pb-10">
         {ProductsKertas.map((product, index) => (
-          <div className="bg-white flex flex-col justify-between relative">
+          <div
+            key={product.name}
+            className="bg-white flex flex-col justify-between relative"
+          >
             <Image
               src={product.imagePatch}
               className="bg-white grid-rows-[1/3] grid-cols-[1/2]"
