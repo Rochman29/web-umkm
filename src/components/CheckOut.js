@@ -327,8 +327,15 @@ export default function Checkout() {
 
     const data = await response.json();
     console.log(data);
-    window.snap.pay(data.token);
-    dispatch(updateCart([]));
+    window.snap.pay(data.token, {
+      onSuccess: function (result) {
+        console.log(result);
+        dispatch(updateCart([]));
+      },
+      onError: function (result) {
+        console.log(result);
+      },
+    });
   };
 
   return (
