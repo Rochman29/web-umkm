@@ -31,7 +31,9 @@ export default function Footer() {
             <h4 className="mb-5 text-lg font-semibold uppercase border-b-2 border-solid">
               Open Hours
             </h4>
-            <p className="text-sm leading-6">Senin - Jum'at : 07.00 - 17.00</p>
+            <p className="text-sm leading-6">
+              Senin - Jum&lsquo;at : 07.00 - 17.00
+            </p>
             <p className="text-sm leading-6">Sabtu - Minggu : Tutup</p>
           </div>
           <div className="flex-1 m-2.5 min-w-52">
