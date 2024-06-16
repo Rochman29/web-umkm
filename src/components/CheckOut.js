@@ -14,6 +14,7 @@ import {
   updateCart,
 } from "@/redux/features/cart-slice";
 import { Bounce, ToastContainer, toast } from "react-toastify";
+import { redirect } from "next/navigation";
 
 export default function Checkout() {
   const [nama, setNama] = useState("");
@@ -333,6 +334,7 @@ export default function Checkout() {
       onSuccess: function (result) {
         console.log(result);
         dispatch(updateCart([]));
+        redirect("/pageBerhasil");
       },
       onError: function (result) {
         console.log(result);
