@@ -3,8 +3,11 @@
 import { Button } from "@headlessui/react";
 import styles from "./Button.module.css";
 import Link from "next/link";
+import { useDispatch } from "react-redux";
+import { updateCart } from "@/redux/features/cart-slice";
 
 export default function page() {
+  const dispatch = useDispatch();
   return (
     <>
       <div className="bg-[#DAD3BE] scroll-smooth focus:scroll-auto min-h-screen max-h-screen flex justify-center items-center relative">
@@ -149,7 +152,12 @@ h78.747C231.693,100.736,232.77,106.162,232.77,111.694z"
         </div>
         <div className="absolute bottom-0 pb-20 z-20">
           <Link href="/">
-            <Button className={styles.button}>Kembali</Button>
+            <Button
+              onClick={() => dispatch(updateCart([]))}
+              className={styles.button}
+            >
+              Kembali
+            </Button>
           </Link>
         </div>
       </div>
