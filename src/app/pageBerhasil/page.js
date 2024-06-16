@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@headlessui/react";
 import styles from "./Button.module.css";
 import Link from "next/link";

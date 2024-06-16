@@ -4,8 +4,19 @@ import Link from "next/link";
 import CategoryMenu from "./CategoryMenu";
 import Image from "next/image";
 import { useAppSelector } from "@/redux/store";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { updateCart } from "@/redux/features/cart-slice";
 
 export default function Header() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    if (localStorage.getItem("checkOutData")) {
+      dispatch(
+        updateCart(JSON.parse(localStorage.getItem("checkOutData")).cartReducer)
+      );
+    }
+  }, []);
   /**@type {Array<any>} */
   const cartItems = useAppSelector((state) => state.cartReducer);
   return (
