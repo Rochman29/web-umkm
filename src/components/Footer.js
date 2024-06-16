@@ -8,22 +8,21 @@ export default function Footer() {
         <div className="flex w-full flex-wrap">
           <div className="flex-1 m-2.5 min-w-52">
             <h4 className="mb-5 text-lg font-semibold uppercase border-b-2 border-solid">
-              Quick Links
+              Address
             </h4>
             <ul className="text-sm leading-6 list-none p-0 mb-[10px] text-white">
               <li className="mb-[10px]">
-                <Link className="text-sm leading-6" href="/">
-                  Home
-                </Link>
+                <p>
+                  Jl. Veteran No.8, Nagri Kaler, Kec. Purwakarta, Kabupaten
+                  Purwakarta, Jawa Barat, 41115
+                </p>
               </li>
-              <li className="mb-[10px]">
-                <Link className="text-sm leading-6" href="/#categories">
-                  Categories
-                </Link>
-              </li>
-              <li className="mb-[10px]">
-                <Link className="text-sm leading-6" href="#contact">
-                  Contact
+              <li className="mb-[10px] underline">
+                <Link
+                  className="text-sm leading-6"
+                  href="https://maps.app.goo.gl/h7o7ycys6JGNUrJAA"
+                >
+                  Lihat ke Google Maps
                 </Link>
               </li>
             </ul>
@@ -33,20 +32,18 @@ export default function Footer() {
               Open Hours
             </h4>
             <p className="text-sm leading-6">Senin - Jum'at : 07.00 - 17.00</p>
-            <p className="text-sm leading-6">Sabtu : 07.00 - 17.00</p>
-            <p className="text-sm leading-6">Minggu : 07.00 - 17.00</p>
+            <p className="text-sm leading-6">Sabtu - Minggu : Tutup</p>
           </div>
           <div className="flex-1 m-2.5 min-w-52">
             <h4 className="mb-5 text-lg font-semibold uppercase border-b-2 border-solid">
               Online Support
             </h4>
-            <p>Email: </p>
-            <p>Phone: (+62) </p>
+            <p>(+62) 81288655512 - Yayat Hidayat </p>
           </div>
         </div>
       </div>
-      <div className="text-center py-5 px-0 bg-[#254336] mt-5">
-        <p>
+      <div className="text-center py-5 px-0 bg-[#DAD3BE] mt-5">
+        <p className="text-black">
           &copy; 2024 KELOMPOK 1 REKAYASA PERANGKAT LUNAK 4B PSTI. All Rights
           Reserved.
         </p>

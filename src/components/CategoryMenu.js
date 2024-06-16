@@ -6,6 +6,7 @@ import {
   DropdownItem,
   Button,
 } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function CategoryMenu() {
   return (
@@ -15,19 +16,25 @@ export default function CategoryMenu() {
       </DropdownTrigger>
       <DropdownMenu aria-label="Static Actions">
         <DropdownItem key="new">
-          <Button className="bg-[#b7b597] text-black hover:border-2 border-white w-32">
-            Pengeditan
-          </Button>
+          <Link href="/pageShop/#percetakan">
+            <Button className="bg-[#b7b597] text-black hover:border-2 border-white w-32">
+              Percetakan
+            </Button>
+          </Link>
         </DropdownItem>
         <DropdownItem key="copy">
-          <Button className="bg-[#b7b597] text-black border-white w-32 hover:border-2">
-            Alat Tulis
-          </Button>
+          <Link href="/pageShop/#kertas">
+            <Button className="bg-[#b7b597] text-black border-white w-32 hover:border-2">
+              Kertas
+            </Button>
+          </Link>
         </DropdownItem>
         <DropdownItem key="edit">
-          <Button className="bg-[#b7b597] text-black border-white w-32 hover:border-2">
-            Percetakan
-          </Button>
+          <Link href="/pageShop/#alattulis">
+            <Button className="bg-[#b7b597] text-black border-white w-32 hover:border-2">
+              Alat Tulis
+            </Button>
+          </Link>
         </DropdownItem>
       </DropdownMenu>
     </Dropdown>

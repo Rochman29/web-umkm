@@ -11,7 +11,7 @@ export default function Home() {
       <header>
         <Header />
       </header>
-      <main id="/">
+      <main id="/" className="pt-16">
         <ImageGallery />
       </main>
       <div id="categories">

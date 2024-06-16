@@ -1,24 +1,29 @@
 "use client";
 
+import AlatTulis from "@/components/AlatTulis";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Kertas from "@/components/Kertas";
+import Percetakan from "@/components/Percetakan";
 
 export default function page() {
   return (
-    <div className="bg-[#DAD3BE] scroll-smooth focus:scroll-auto">
+    <main className="bg-[#DAD3BE] scroll-smooth focus:scroll-auto">
       <header>
         <Header />
       </header>
-      <div className="font-semiboldx font-sans text-5xl px-20 h-60 flex items-center">
-        Kertas
+      <div>
+        <Percetakan />
       </div>
       <div>
         <Kertas />
       </div>
       <div>
-        <Footer />
+        <AlatTulis />
       </div>
-    </div>
+      <footer>
+        <Footer />
+      </footer>
+    </main>
   );
 }
