@@ -20,7 +20,7 @@ export const ProductsPercetakan = [
   {
     id: 4,
     name: "Gantungan Kunci",
-    imagePatch: "/products/spidol.png",
+    imagePatch: "/products/gantungankunci.png",
     price: 5000,
   },
   {
